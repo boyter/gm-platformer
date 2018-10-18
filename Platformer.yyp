@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "4e8a7786-60c1-4451-8d18-f012995be4e0",
+            "Value": {
+                "id": "57426766-ed82-439e-8b47-4209e0ddab3c",
+                "resourcePath": "sprites\\sPlayerAir\\sPlayerAir.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65195b80-a91f-4bcd-820c-f4fc48497622",
             "Value": {
                 "id": "8efd90b1-dbb3-46cd-9bae-68841ba2dfd7",
