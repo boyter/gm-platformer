@@ -38,3 +38,20 @@ if (place_meeting(x, y+vsp, oWall)) {
 // Set new position
 x = x + hsp;
 y = y + vsp;
+
+// Animation updates
+
+// If not on the floor
+// TODO this is not efficient because this was already done above
+if (!place_meeting(x, y+1, oWall)) {
+	sprite_index = sPlayerAir;
+	image_speed = 0;
+	if (sign(vsp) > 0) {
+		image_index = 1;
+	} else {
+		image_index = 0;
+	}
+	
+} else {
+	sprite_index = sPlayer;
+}
