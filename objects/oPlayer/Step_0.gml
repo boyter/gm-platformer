@@ -39,8 +39,8 @@ if (place_meeting(x, y+vsp, oWall)) {
 x = x + hsp;
 y = y + vsp;
 
-// Animation updates
 
+// Animation updates
 // If not on the floor
 // TODO this is not efficient because this was already done above
 if (!place_meeting(x, y+1, oWall)) {
@@ -51,7 +51,6 @@ if (!place_meeting(x, y+1, oWall)) {
 	} else {
 		image_index = 0;
 	}
-	
 } else {
 	image_speed = 1;
 	if (hsp == 0) {
@@ -61,7 +60,7 @@ if (!place_meeting(x, y+1, oWall)) {
 	}
 }
 
-// flip sprite to the correct way
+// flip sprite the correct way
 if (hsp != 0) {
 	image_xscale = sign(hsp);
 }
