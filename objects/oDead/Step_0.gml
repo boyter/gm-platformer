@@ -1,4 +1,4 @@
-if (done == 1) {
+if (done == 0) {
 	vsp = vsp + grv;
 
 	// Horizontal Collision
@@ -13,6 +13,12 @@ if (done == 1) {
 
 	// Vertical Collision
 	if (place_meeting(x, y+vsp, oWall)) {
+		
+		if (vsp > 0) {
+			done = 1;
+			image_index = 1;
+		}
+		
 		// Get as close to the wall as possible
 		while (!place_meeting(x, y+sign(vsp), oWall)) {
 			y = y + sign(vsp);
