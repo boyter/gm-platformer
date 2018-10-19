@@ -1,6 +1,6 @@
 key_left = keyboard_check(vk_left); // is left key being held
 key_right = keyboard_check(vk_right); // is right being held
-key_jump = keyboard_check_pressed(vk_space); // is space pressed on this frame
+key_jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_up); // is space pressed on this frame
 
 // Calcluate movement is either -1 0 or 1 for left nothing or right
 // IE if both pressed 0 otherwise -1 or 1
