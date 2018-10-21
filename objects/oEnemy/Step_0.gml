@@ -7,7 +7,7 @@ if (place_meeting(x+hsp, y, oWall)) {
 		x = x + sign(hsp);
 	}
 
-	hsp = 0;
+	hsp = -hsp;
 }
 
 // Vertical Collision
@@ -42,6 +42,10 @@ if (!place_meeting(x, y+1, oWall)) {
 		sprite_index = sEnemy;
 	} else {
 		sprite_index = sEnemyRunning;
+	}
+	
+	if (random_range(0, 10) == 5) {
+		vsp = vsp - jumpheight;
 	}
 }
 

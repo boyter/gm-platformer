@@ -1,7 +1,7 @@
-hsp = 0;
+hsp = random_range(-3, 3);
 vsp = 0;
 grv = 0.3;
-walksp = 4;
+
 jumpheight = 9;
 
 hp = 4;
