@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "6aed137c-c08c-4510-8723-437b821b952b",
+            "Value": {
+                "id": "0147a901-c89b-4b21-b722-af4963ed7790",
+                "resourcePath": "sprites\\sTiles\\sTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6bb0c5e9-fd4e-409a-b5cb-3bdaf02e43c0",
             "Value": {
                 "id": "b29db6cf-e387-4b6c-acdc-220b5526396b",
@@ -308,6 +316,14 @@
                 "id": "3eb505ec-6f39-4103-bff0-c50a8171380b",
                 "resourcePath": "shaders\\shWhite\\shWhite.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "e2c4bbac-2fb9-4ea4-b343-e214e7a85747",
+            "Value": {
+                "id": "6b07e795-f807-4b53-b358-69d05664d481",
+                "resourcePath": "tilesets\\tTiles\\tTiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
