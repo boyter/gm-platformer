@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "7993ba56-541e-498d-a0dd-a6b4469ddacd",
+            "Value": {
+                "id": "7dee6739-2d5b-443c-8e65-f82c26f7c6ca",
+                "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "845597cc-f116-402c-aab1-96ecf730a623",
             "Value": {
                 "id": "4f479481-4fd5-4eb2-ab9a-0379d7523884",
@@ -368,7 +376,7 @@
         }
     ],
     "script_order": [
-        
+        "7993ba56-541e-498d-a0dd-a6b4469ddacd"
     ],
     "tutorial": ""
 }
