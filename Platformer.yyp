@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "13923bb0-334e-4f48-9f79-833b5c5b2eff",
+            "Value": {
+                "id": "1b0e97df-2293-41ee-918c-ff1a4878f62a",
+                "resourcePath": "objects\\oLevelEnd\\oLevelEnd.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1497c2ee-9230-4bc7-96ac-9e6fa9f8137d",
             "Value": {
                 "id": "7796779f-2a8e-4a45-9181-f6e43ee96bec",
@@ -164,6 +172,14 @@
                 "id": "1ca5721b-f263-42f4-86db-01062ce9bb0e",
                 "resourcePath": "objects\\oGun\\oGun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "88177f0b-6098-43fe-8aeb-f9f29610a862",
+            "Value": {
+                "id": "1619a91e-6f56-48ad-aa9b-acecc9478d23",
+                "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -373,10 +389,19 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f6fa40db-cc60-42eb-8de6-d767c58dd3fb",
+            "Value": {
+                "id": "2b6431ca-1c1e-4414-9418-7232ea89dc18",
+                "resourcePath": "sprites\\sTrigger\\sTrigger.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        "7993ba56-541e-498d-a0dd-a6b4469ddacd"
+        "7993ba56-541e-498d-a0dd-a6b4469ddacd",
+        "88177f0b-6098-43fe-8aeb-f9f29610a862"
     ],
     "tutorial": ""
 }

@@ -9,6 +9,7 @@ recoil = max(0, recoil - 1);
 if (mouse_check_button(mb_left) && firingdelay == 0) {
 	recoil = recoilsize;
 	firingdelay = firingcooldown;
+	ScreenShake(2, 10);
 	with (instance_create_layer(x, y, "Instances_Bullet", oBullet)) {
 		speed = other.bulletspeed;
 		// Other refers to the object not the bullet we just made

@@ -4,5 +4,6 @@ grv = 0.3;
 done = 0;
 
 image_speed = 0;
-
 image_xscale = sign(random_range(-1, 1));
+
+ScreenShake(6, 25);

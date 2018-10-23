@@ -16,10 +16,10 @@ if (mode != TRANS_MODE.OFF) {
 		// percent = min(1, percent + 0.05);
 		
 		// 10% of the distance left to go
-		percent = min(1, percent - max((1-percent)/10, 0.005));
+		percent = min(1.1, percent + max((1.1-percent)/10, 0.005));
 	}
 
-	if (percent == 0 || percent == 1) {
+	if (percent == 0 || percent == 1.1) {
 		switch (mode) {
 			case TRANS_MODE.INTRO: {
 				mode = TRANS_MODE.OFF;

@@ -1,17 +1,23 @@
+
+
+
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A")); // is left key being held
 key_right = keyboard_check(vk_right)  || keyboard_check(ord("D"));; // is right being held
 key_jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")); // is space pressed on this frame
 
-// Calcluate movement is either -1 0 or 1 for left nothing or right
-// IE if both pressed 0 otherwise -1 or 1
-var move = key_right - key_left;
-hsp = move * walksp;
-vsp = vsp + grv;
 
-// Jumping, if on a wall we can jump
-if (place_meeting(x, y+1, oWall)) {
-	if (key_jump) {
-		vsp = vsp - jumpheight;
+if (hascontrol) {
+	// Calcluate movement is either -1 0 or 1 for left nothing or right
+	// IE if both pressed 0 otherwise -1 or 1
+	var move = key_right - key_left;
+	hsp = move * walksp;
+	vsp = vsp + grv;
+
+	// Jumping, if on a wall we can jump
+	if (place_meeting(x, y+1, oWall)) {
+		if (key_jump) {
+			vsp = vsp - jumpheight;
+		}
 	}
 }
 
