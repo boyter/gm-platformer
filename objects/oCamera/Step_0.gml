@@ -22,3 +22,11 @@ shake_remain = max(0, shake_remain-((1/shake_length)*shake_magnitude));
 // Update camera view
 // minus the half position so the player is in the middle
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
+
+if (layer_exists("Background_Mountain")) {
+	layer_x("Background_Mountain", x/2); // closer to x means futher in the background
+}
+
+if (layer_exists("Background_Tree")) {
+	layer_x("Background_Tree", x/4);
+}
