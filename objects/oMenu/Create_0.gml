@@ -15,6 +15,9 @@ menu_item_height = font_get_size(fMenu);
 menu_comitted = -1;
 menu_control = true;
 
+// Do reverse so that the array is created with enough space
 menu[2] = "New Game";
 menu[1] = "Continue";
 menu[0] = "Quit";
+
+menu_cursor = 2;
