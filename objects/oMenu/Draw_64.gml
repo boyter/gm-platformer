@@ -4,7 +4,7 @@
 draw_set_font(fMenu);
 
 // must run this every time to ensure it is set for this drawing
-draw_set_alpha(fa_right); // Font alignment
+draw_set_halign(fa_right); // Font alignment
 draw_set_valign(fa_bottom);
 
 // var means temp variable
