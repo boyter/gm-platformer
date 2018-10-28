@@ -10,6 +10,10 @@ if (place_meeting(x+hsp, y, oWall)) {
 	hsp = -hsp;
 }
 
+if (place_meeting(x+hsp, y, oLevelEnd)) {
+	hsp = -hsp;
+}
+
 // Vertical Collision
 if (place_meeting(x, y+vsp, oWall)) {
 	// Get as close to the wall as possible

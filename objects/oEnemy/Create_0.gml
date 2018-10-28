@@ -1,4 +1,4 @@
-hsp = random_range(-3, 3);
+hsp = random_range(-5, 5);
 vsp = 0;
 grv = 0.3;
 
