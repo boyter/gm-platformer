@@ -17,6 +17,7 @@ if (done == 0) {
 		if (vsp > 0) {
 			done = 1;
 			image_index = 1;
+			alarm[0] = 60;
 		}
 		
 		// Get as close to the wall as possible
