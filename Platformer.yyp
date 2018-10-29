@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "61dffc1e-9b14-431e-88f2-894aa48cb54e",
+            "Value": {
+                "id": "b6db55d6-1abf-4612-9213-486dbd47a9ee",
+                "resourcePath": "sprites\\sMarker\\sMarker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65195b80-a91f-4bcd-820c-f4fc48497622",
             "Value": {
                 "id": "8efd90b1-dbb3-46cd-9bae-68841ba2dfd7",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "a65a9ad4-0c88-4227-bc93-319a1a75cddd",
+            "Value": {
+                "id": "d105c63c-d692-4641-af95-3fe758e5ae08",
+                "resourcePath": "objects\\oSign\\oSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "9e3f154e-6ac2-44ac-98c2-565c34c0da41",
@@ -355,6 +371,14 @@
             "Value": {
                 "id": "e870608c-5168-4f90-8b36-fa6a84434e45",
                 "resourcePath": "fonts\\fMenu\\fMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "c8a3f9a8-30c1-4cb4-9835-aca5964a8494",
+            "Value": {
+                "id": "f0f8d133-9c88-4719-9f96-bd5862a98f25",
+                "resourcePath": "fonts\\fSign\\fSign.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -439,6 +463,14 @@
             }
         },
         {
+            "Key": "eb649423-ffc0-45aa-b606-15259702bd1f",
+            "Value": {
+                "id": "04c6fbd8-e436-48f7-a62b-2f8c200678cc",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed1249fc-8ada-4ec6-a1fb-800082e87b38",
             "Value": {
                 "id": "2891c858-005b-4bcf-b09d-7febd794829c",
@@ -455,11 +487,27 @@
             }
         },
         {
+            "Key": "f337c09a-615d-4d15-b4a0-6362cd737985",
+            "Value": {
+                "id": "96004d91-4a77-4a11-805d-aad311b3be53",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "2c713c5f-6b93-4697-85a5-0e07997e0b5d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f54a4156-ff1e-4239-a42c-85ac1d3031a1",
+            "Value": {
+                "id": "2a720111-0e70-4436-92d0-b341f30a5b97",
+                "resourcePath": "sprites\\sSign\\sSign.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -473,7 +521,8 @@
     ],
     "script_order": [
         "7993ba56-541e-498d-a0dd-a6b4469ddacd",
-        "88177f0b-6098-43fe-8aeb-f9f29610a862"
+        "88177f0b-6098-43fe-8aeb-f9f29610a862",
+        "f337c09a-615d-4d15-b4a0-6362cd737985"
     ],
     "tutorial": ""
 }
