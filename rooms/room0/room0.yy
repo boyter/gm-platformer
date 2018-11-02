@@ -96,7 +96,8 @@
         "ba6c64b3-9000-400e-9d7e-827ff8fe0a78",
         "214d8b13-4f4c-4bd3-b9de-c897dae0c11e",
         "481cbfa8-2a3f-400a-937d-9efc0491599e",
-        "207cd895-967b-4271-9364-93f6aecb1dfb"
+        "207cd895-967b-4271-9364-93f6aecb1dfb",
+        "ce240416-29f2-4f44-b355-0e046fdfe05d"
     ],
     "IsDnD": false,
     "layers": [
@@ -114,7 +115,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_6DFFB674","id": "207cd895-967b-4271-9364-93f6aecb1dfb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6DFFB674","objId": "a65a9ad4-0c88-4227-bc93-319a1a75cddd","properties": [{"id": "e8501f0f-59af-4703-9a74-1eb623a0f0b2","modelName": "GMOverriddenProperty","objectId": "a65a9ad4-0c88-4227-bc93-319a1a75cddd","propertyId": "8ea79004-b0ca-4307-909b-965f6d5bfea8","mvc": "1.0","value": "Don't murder anyone\\nThe Park Ranger!"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 832,"y": 576}
+{"name": "inst_6DFFB674","id": "207cd895-967b-4271-9364-93f6aecb1dfb","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_6DFFB674.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6DFFB674","objId": "a65a9ad4-0c88-4227-bc93-319a1a75cddd","properties": [{"id": "e8501f0f-59af-4703-9a74-1eb623a0f0b2","modelName": "GMOverriddenProperty","objectId": "a65a9ad4-0c88-4227-bc93-319a1a75cddd","propertyId": "8ea79004-b0ca-4307-909b-965f6d5bfea8","mvc": "1.0","value": "Don't murder anyone please.\\nThe Park Ranger!"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 832,"y": 576},
+{"name": "inst_72D80A3F","id": "ce240416-29f2-4f44-b355-0e046fdfe05d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_72D80A3F","objId": "a65a9ad4-0c88-4227-bc93-319a1a75cddd","properties": [{"id": "62a55950-5aea-4bbf-9268-342e55db8289","modelName": "GMOverriddenProperty","objectId": "a65a9ad4-0c88-4227-bc93-319a1a75cddd","propertyId": "8ea79004-b0ca-4307-909b-965f6d5bfea8","mvc": "1.0","value": "Be careful, it can get windy up here.\\nThe Park Ranger"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1792,"y": 352}
             ],
             "layers": [
 
