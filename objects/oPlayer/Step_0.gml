@@ -1,6 +1,4 @@
 
-
-
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A")); // is left key being held
 key_right = keyboard_check(vk_right)  || keyboard_check(ord("D"));; // is right being held
 key_jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")); // is space pressed on this frame
