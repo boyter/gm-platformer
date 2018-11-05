@@ -75,6 +75,20 @@
             "value": "1",
             "varName": "size",
             "varType": 0
+        },
+        {
+            "id": "5ab753e4-9135-4b53-ac80-1a0140520d2a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "afraidofheights",
+            "varType": 3
         }
     ],
     "solid": false,

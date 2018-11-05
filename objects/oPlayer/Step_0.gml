@@ -3,7 +3,7 @@ key_left = keyboard_check(vk_left) || keyboard_check(ord("A")); // is left key b
 key_right = keyboard_check(vk_right)  || keyboard_check(ord("D"));; // is right being held
 key_jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")); // is space pressed on this frame
 
-
+canjump--;
 if (hascontrol) {
 	// Calcluate movement is either -1 0 or 1 for left nothing or right
 	// IE if both pressed 0 otherwise -1 or 1
@@ -12,9 +12,11 @@ if (hascontrol) {
 	vsp = vsp + grv;
 
 	// Jumping, if on a wall we can jump
-	if (place_meeting(x, y+1, oWall)) {
+	//if (place_meeting(x, y+1, oWall)) {
+	if (canjump > 0) {
 		if (key_jump) {
 			vsp = vsp - jumpheight;
+			canjump = 0;
 		}
 	}
 }
@@ -55,7 +57,8 @@ if (!place_meeting(x, y+1, oWall)) {
 	} else {
 		image_index = 0;
 	}
-} else {
+} else { // On the floor
+	canjump = 10;
 	image_speed = 1;
 	if (hsp == 0) {
 		sprite_index = sPlayer;

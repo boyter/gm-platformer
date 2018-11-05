@@ -6,3 +6,5 @@ jumpheight = 9;
 
 hp = 4;
 flash = 0;
+
+grounded = false
