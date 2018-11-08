@@ -1,43 +1,33 @@
 {
-    "id": "194addfc-cc0c-4e87-a03a-e25a28471b60",
+    "id": "6646196d-87ad-4540-a7c7-38838ef6b304",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oEnemy",
+    "name": "pShootable",
     "eventList": [
         {
-            "id": "30dbf68d-58c9-44c2-b0e6-ef820f495b59",
+            "id": "5b989d8b-c370-4aa1-8925-12e18a69ab4d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "194addfc-cc0c-4e87-a03a-e25a28471b60"
+            "eventtype": 8,
+            "m_owner": "6646196d-87ad-4540-a7c7-38838ef6b304"
         },
         {
-            "id": "2f9a68c0-e129-4f9e-ba84-4fc9df203dde",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "194addfc-cc0c-4e87-a03a-e25a28471b60"
-        },
-        {
-            "id": "dcd5c7a7-8359-4d60-93b0-04f5779892ab",
+            "id": "e01daf92-2aa2-43df-a952-042f609759bb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
             "eventtype": 3,
-            "m_owner": "194addfc-cc0c-4e87-a03a-e25a28471b60"
+            "m_owner": "6646196d-87ad-4540-a7c7-38838ef6b304"
         }
     ],
-    "maskSpriteId": "27aa7d27-98bd-4244-bd40-3a988599d06e",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "6646196d-87ad-4540-a7c7-38838ef6b304",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -53,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "0a4d4fbd-282b-4b9c-beff-beafbaaebda9",
+            "id": "1e99eb35-a2b3-4eda-bbe3-343e8e3310b5",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "size",
+            "value": "4",
+            "varName": "hp",
             "varType": 0
         },
         {
-            "id": "5ab753e4-9135-4b53-ac80-1a0140520d2a",
+            "id": "20640e02-f37b-4201-bce9-e4847ac77175",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -76,12 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "afraidofheights",
-            "varType": 3
+            "value": "0",
+            "varName": "flash",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "27aa7d27-98bd-4244-bd40-3a988599d06e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
