@@ -58,6 +58,15 @@ if (!place_meeting(x, y+1, oWall)) {
 		image_index = 0;
 	}
 } else { // On the floor
+	
+	if (sprite_index == sPlayerAir) {
+		repeat (5) {
+			with (instance_create_layer(x, bbox_bottom, "Instances_Bullet", oDust)) {
+				vsp = 0;
+			}
+		}
+	}
+	
 	canjump = 10;
 	image_speed = 1;
 	if (hsp == 0) {

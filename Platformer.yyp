@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "5c7d73fa-5661-467d-8cee-95d2ba706caa",
+            "Value": {
+                "id": "52270608-d655-4f26-b6ba-465bd554ba4e",
+                "resourcePath": "objects\\oDust\\oDust.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d5f86f9-60f1-4ecc-a357-bcf38caf361c",
             "Value": {
                 "id": "d106cccd-4593-4a93-a8fd-fca2a17d18a9",
@@ -532,6 +540,14 @@
                 "id": "96004d91-4a77-4a11-805d-aad311b3be53",
                 "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f408215d-ea75-46ad-9da2-1990c152bb09",
+            "Value": {
+                "id": "bd7156fa-c297-4898-ac27-6a3da150dcbd",
+                "resourcePath": "sprites\\sDust\\sDust.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
